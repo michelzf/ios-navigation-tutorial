@@ -25,6 +25,7 @@ static Singleton* instancia = nil;
     return instancia;
 }
 
+
 - (id) initSecreto
 {
     self = [super init];
@@ -38,80 +39,79 @@ static Singleton* instancia = nil;
                 [object setWord:@"Amor"];
             }
             if (letra == 'B') {
-                [object setWord:@"Baka"];
+                [object setWord:@"Baixinho"];
             }
             if (letra == 'C') {
-                [object setWord:@"Chikyuu"];
+                [object setWord:@"Coração"];
             }
             if (letra  == 'D') {
-                [object setWord:@"Denwa"];
+                [object setWord:@"Docinho"];
             }
             if (letra  == 'E') {
-                [object setWord:@"Ecchi"];
+                [object setWord:@"Escola"];
             }
             if (letra  == 'F') {
-                [object setWord:@"Fukurou"];
+                [object setWord:@"Feijão"];
             }
             if (letra == 'G') {
-                [object setWord:@"Goten"];
+                [object setWord:@"Gente"];
             }
             if (letra == 'H') {
-                [object setWord:@"Hana"];
+                [object setWord:@"Humano"];
             }
             if (letra == 'I') {
-                [object setWord:@"Ícaro"];
+                [object setWord:@"Igualdade"];
             }
             if (letra == 'J') {
-                [object setWord:@"João"];
+                [object setWord:@"Juventude"];
             }
             if (letra  == 'K') {
-                [object setWord:@"Kanpeki"];
+                [object setWord:@"K"];
             }
             if (letra  == 'L') {
-                [object setWord:@"Lamen"];
-                
+                [object setWord:@"Liberdade"];
             }
             if (letra == 'M') {
-                [object setWord:@"Mimi"];
+                [object setWord:@"Molecagem"];
             }
             if (letra  == 'N') {
-                [object setWord:@"Neko"];
+                [object setWord:@"Natureza"];
             }
             if (letra == 'O') {
-                [object setWord:@"Obake"];
+                [object setWord:@"Obrigado"];
             }
             if (letra == 'P') {
-                [object setWord:@"Pakuru"];
+                [object setWord:@"Proteção"];
             }
             if (letra == 'Q') {
-                [object setWord:@"Quero"];
+                [object setWord:@"Quero-Quero"];
             }
             if (letra == 'R') {
-                [object setWord:@"Rakuda"];
+                [object setWord:@"Riacho"];
             }
             if (letra == 'S') {
-                [object setWord:@"Saru"];
+                [object setWord:@"Saudade"];
             }
             if (letra == 'T') {
-                [object setWord:@"Tanjuu"];
+                [object setWord:@"Terra"];
             }
             if (letra == 'U') {
-                [object setWord:@"Uma"];
+                [object setWord:@"Universo"];
             }
             if (letra == 'V') {
-                [object setWord:@"Vilma"];
+                [object setWord:@"Vitória"];
             }
             if (letra  == 'W') {
-                [object setWord:@"Washi"];
+                [object setWord:@"W"];
             }
             if (letra  == 'X') {
-                [object setWord:@"xicara"];
+                [object setWord:@"Xuxa"];
             }
             if (letra  == 'Y') {
-                [object setWord:@"Yamaguwa"];
+                [object setWord:@"Y"];
             }
             if (letra  == 'Z') {
-                [object setWord:@"Zukotsu"];
+                [object setWord:@"Zum-Zum-Zum"];
             }
             
             [object setLetra:letra];

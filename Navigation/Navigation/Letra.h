@@ -11,7 +11,6 @@
 @interface Letra : NSObject
 @property NSString* word;
 @property char letra;
-@property UIImage* img;
 
 
 -(void)alfabeto;
