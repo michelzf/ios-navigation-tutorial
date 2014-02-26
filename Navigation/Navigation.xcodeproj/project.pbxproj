@@ -19,11 +19,11 @@
 		27156F6818B76AF50053A99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F5018B76AF50053A99C /* UIKit.framework */; };
 		27156F7018B76AF50053A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27156F6E18B76AF50053A99C /* InfoPlist.strings */; };
 		27156F7218B76AF50053A99C /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7118B76AF50053A99C /* NavigationTests.m */; };
+		8706699F18BE66B80002AF95 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 8706699E18BE66B80002AF95 /* contact.png */; };
 		87A2F79018BD239C001984DB /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A2F78F18BD239C001984DB /* Singleton.m */; };
 		87A2F79318BD2479001984DB /* Letra.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A2F79218BD2479001984DB /* Letra.m */; };
 		87A2F79718BD2793001984DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2F79618BD2793001984DB /* AudioToolbox.framework */; };
 		87A2F79918BD27A3001984DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2F79818BD27A3001984DB /* AVFoundation.framework */; };
-		87A2F79A18BD27BD001984DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27156F6518B76AF50053A99C /* XCTest.framework */; };
 		87A2F79D18BD2879001984DB /* LetraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A2F79C18BD2879001984DB /* LetraViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +54,7 @@
 		27156F6D18B76AF50053A99C /* NavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTests-Info.plist"; sourceTree = "<group>"; };
 		27156F6F18B76AF50053A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27156F7118B76AF50053A99C /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
+		8706699E18BE66B80002AF95 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contact.png; path = ../../Desktop/contact.png; sourceTree = "<group>"; };
 		87A2F78E18BD239C001984DB /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		87A2F78F18BD239C001984DB /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		87A2F79118BD2479001984DB /* Letra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Letra.h; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A2F79A18BD27BD001984DB /* XCTest.framework in Frameworks */,
 				87A2F79918BD27A3001984DB /* AVFoundation.framework in Frameworks */,
 				87A2F79718BD2793001984DB /* AudioToolbox.framework in Frameworks */,
 				27156F4F18B76AF50053A99C /* CoreGraphics.framework in Frameworks */,
@@ -94,6 +94,7 @@
 		27156F4018B76AF50053A99C = {
 			isa = PBXGroup;
 			children = (
+				8706699E18BE66B80002AF95 /* contact.png */,
 				87A2F79E18BD2C2F001984DB /* ViewController */,
 				87A2F79518BD2737001984DB /* Singleton */,
 				87A2F79418BD24AB001984DB /* Letra */,
@@ -272,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8706699F18BE66B80002AF95 /* contact.png in Resources */,
 				27156F5718B76AF50053A99C /* InfoPlist.strings in Resources */,
 				27156F5F18B76AF50053A99C /* Images.xcassets in Resources */,
 			);

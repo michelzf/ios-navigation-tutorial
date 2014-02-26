@@ -43,10 +43,20 @@ static char ref2;
     [botao setTitle:l.word forState:UIControlStateNormal];
     [botao sizeToFit];
     botao.center = self.view.center;
+
+  
     
-    [self.view addSubview:botao];
-    
+    UIImage *imagem=[UIImage imageNamed:@"contact.png"];
+    UIImageView *imagemView=[[UIImageView alloc]initWithImage:imagem];
+    [imagemView setContentMode:UIViewContentModeScaleAspectFit];
+    [imagemView alignmentRectInsets];
+    [imagemView setFrame:CGRectMake( self.view.bounds.size.height/2, self.view.bounds.size.width/2, 100, 100) ];
+    imagemView.backgroundColor=[UIColor whiteColor ];
+    [self.view addSubview:imagemView];
+      [self.view addSubview:botao];
 }
+
+
 
 -(void)next:(id)sender {
     LetraViewController *proximo = [[LetraViewController alloc]
